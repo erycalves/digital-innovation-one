@@ -1,6 +1,8 @@
 # Como trabalhar com repositório na máquina
-<ol>
-<li>1.Clone: copiar o https</li>
-<li>2. Ir na pasta de destino e abrir o GitBash</li>
-<li>3.No GitBash: git clone + "link do repositorio"</li>
-</ol>
+1.Clone: copiar o https
+2. Ir na pasta de destino e abrir o GitBash
+3.No GitBash: git clone + "link do repositorio"
+# Da pasta local para o servidor remoto do Git Hub
+1. git add . (git add -A) -> adicionar os arquivos
+2. git commit -m "mensagem"
+3. git push origin main (enviando todos os commits local para a nuvem)
